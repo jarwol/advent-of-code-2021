@@ -1,9 +1,9 @@
 package main
 
 import (
-	"com.jarwol/advent-of-code-2021/day4"
+	"com.jarwol/advent-of-code-2021/day6"
 )
 
 func main() {
-	day4.Part2()
+	day6.Part2()
 }

@@ -31,6 +31,7 @@ func Part2() {
 				lastNum = num
 				if len(completedMap) == len(boards) {
 					fmt.Println(lastCompleted.Sum() * lastNum)
+					os.Exit(0)
 				}
 			}
 		}
