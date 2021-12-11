@@ -2,6 +2,11 @@ package common
 
 import "strconv"
 
+type Point struct {
+	I int
+	J int
+}
+
 func ToIntSlice(strs []string) []int {
 	ints := make([]int, len(strs))
 	for i, str := range strs {
